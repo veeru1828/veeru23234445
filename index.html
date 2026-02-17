@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KLE SOCIETY SVS BELLUBBI COLLEGE SAVADATTI</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin:0;
+            font-family: 'Poppins', sans-serif;
+            background:linear-gradient(to right,#eef2f3,#dbe9f4);
+        }
+
+        header{
+            background:linear-gradient(90deg,#001f3f,#004080);
+            color:white;
+            padding:25px;
+            text-align:center;
+            box-shadow:0 6px 15px rgba(0,0,0,0.4);
+        }
+
+        header h1{
+            margin:0;
+            font-size:32px;
+            letter-spacing:1px;
+        }
+
+        nav{
+            background:#002b5c;
+            padding:15px;
+            text-align:center;
+            position:sticky;
+            top:0;
+            z-index:1000;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:18px;
+            font-weight:500;
+            font-size:17px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#ffcc00;
+            border-bottom:2px solid #ffcc00;
+            padding-bottom:5px;
+        }
+
+        .events-bar{
+            background:linear-gradient(90deg,#ffcc00,#ffb700);
+            color:#000;
+            padding:10px;
+            font-weight:bold;
+            font-size:16px;
+        }
+
+        /* IMAGE SLIDER */
+        .slider{
+            width:100%;
+            height:450px;
+            overflow:hidden;
+            position:relative;
+        }
+
+        .slides{
+            display:flex;
+            width:300%;
+            animation:slide 12s infinite ease-in-out;
+        }
+
+        .slides img{
+            width:100%;
+            height:450px;
+            object-fit:cover;
+        }
+
+        @keyframes slide{
+            0%{margin-left:0%;}
+            30%{margin-left:0%;}
+            35%{margin-left:-100%;}
+            65%{margin-left:-100%;}
+            70%{margin-left:-200%;}
+            100%{margin-left:-200%;}
+        }
+
+        /* CONTENT SECTION */
+        .content-section{
+            padding:70px 40px;
+            background:white;
+            text-align:center;
+        }
+
+        .content-box{
+            max-width:900px;
+            margin:auto;
+            background:linear-gradient(135deg,#002147,#004080);
+            color:white;
+            padding:50px;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .content-box h2{
+            font-size:36px;
+            margin-bottom:20px;
+        }
+
+        .content-box p{
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        footer{
+            background:linear-gradient(90deg,#001f3f,#004080);
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+            font-size:15px;
+        }
+
+        @media(max-width:768px){
+            .slider{
+                height:300px;
+            }
+            .slides img{
+                height:300px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>KLE SOCIETY SVS BELLUBBI COLLEGE SAVADATTI</h1>
+    <p>WELCOME TO OUR COLLEGE</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="register.html">Register</a>   
+</nav>
+
+<div class="events-bar">
+    <marquee>
+        🎉 Annual Day - March 15 | 📢 Admissions Open 2026 | 🏆 Sports Meet Coming Soon | 🎓 Scholarship Applications Available
+    </marquee>
+</div>
+
+<!-- IMAGE SLIDER SECTION -->
+<div class="slider">
+    <div class="slides">
+        <img src="file:///C:/Users/Admin/Downloads/v3.jpg">
+        <img src="file:///C:/Users/Admin/Downloads/v4.jpeg">
+        <img src="file:///C:/Users/Admin/Downloads/v5.jpeg">
+    </div>
+</div>
+
+<!-- CONTENT SECTION -->
+<section class="content-section">
+    <div class="content-box">
+        <h2>Why Choose SVS College?</h2>
+        <p>
+            SVS Bellubi College provides quality education with experienced faculty,
+            modern infrastructure, and excellent academic support.
+            Our mission is to empower students with knowledge,
+            leadership skills, and strong moral values to build a successful future.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 SVS College | All Rights Reserved
+</footer>
+
+</body>
+</html>

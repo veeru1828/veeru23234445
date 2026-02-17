@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+
+<style>
+body{
+    font-family:'Segoe UI', Arial;
+    background:linear-gradient(to right,#002147,#004080);
+    text-align:center;
+    margin:0;
+    padding:40px;
+    color:white;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+form{
+    width:350px;
+    margin:auto;
+    padding:25px;
+    background:white;
+    color:black;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+input, select, textarea{
+    width:90%;
+    padding:8px;
+    margin:8px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+
+button{
+    background:#002147;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    margin:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#004080;
+}
+
+a{
+    color:#ffcc00;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Student Registration</h1>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<textarea placeholder="Address"></textarea>
+
+<select required>
+<option value="">Select Course</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>B.Sc</option>
+</select>
+
+<input type="text" placeholder="Qualification (PUC / 12th)" required>
+<input type="number" placeholder="Year of Passing" required>
+<input type="number" placeholder="Percentage %" required>
+
+<label>Date of Birth</label><br>
+<input type="date" required><br>
+
+<label>Upload Photo</label><br>
+<input type="file"><br>
+
+<input type="password" placeholder="Create Password" required>
+<input type="password" placeholder="Confirm Password" required>
+
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+
+</form>
+
+<br>
+<a href="index.html">Back to Home</a>
+
+</body>
+</html>
